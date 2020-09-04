@@ -48,6 +48,6 @@ constructor(a:number,b:number,c:number,h:number){
   this.h=h;
 }
 public thetich():number{
-  return this.dientich()*this.h;
+  return this.dientich()*this.h/3;
 }
 }
